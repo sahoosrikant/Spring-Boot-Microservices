@@ -4,7 +4,6 @@ import com.microservice.ProductService.dto.ProductRequest;
 import com.microservice.ProductService.dto.ProductResponse;
 import com.microservice.ProductService.model.Product;
 import com.microservice.ProductService.repository.ProductRepository;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

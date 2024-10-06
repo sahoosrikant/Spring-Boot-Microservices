@@ -7,7 +7,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>org.example</groupId>
     <artifactId>Spring-Boot-Microservices</artifactId>
@@ -26,19 +26,8 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <spring-cloud.version>2023.0.0</spring-cloud.version>
-<!--        //we can use 2023.0.3 here as well -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-<!--    <dependencyManagement>-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-dependencies</artifactId>-->
-<!--            <version>${spring-cloud.version}</version>-->
-<!--            <type>pom</type>-->
-<!--            <scope>import</scope>-->
-<!--        </dependency>-->
-<!--    </dependencyManagement>-->
 
     <dependencyManagement>
         <dependencies>
@@ -72,9 +61,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-<!--                    <image>-->
-<!--                        <builder>paketobuildpacks/builder-jammy-base:latest</builder>-->
-<!--                    </image>-->
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
@@ -98,14 +84,6 @@
                         </tags>
                     </to>
                 </configuration>
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <phase>package</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>dockerBuild</goal>-->
-<!--                        </goals>-->
-<!--                    </execution>-->
-<!--                </executions>-->
             </plugin>
         </plugins>
     </build>

@@ -17,7 +17,6 @@ public class InventoryController {
     @Autowired
     private InventoryService inventoryService;
 
-    //We are getting a list of skuCodes in the url from the orderService
     @GetMapping("/{skuCode}/{quantity}")
     @ResponseStatus(HttpStatus.OK)
     public boolean isInStock(@PathVariable String skuCode, @PathVariable Integer quantity) throws InterruptedException {

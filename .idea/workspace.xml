@@ -4,53 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c325ac12-a9ba-4e92-a9b1-7f6e9974fcd6" name="Changes" comment="Needed to check the authentication in eureka server">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigateway/src/main/resources/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventoryservice/src/main/resources/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventoryservice/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificationservice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificationservice/src/main/java/com/microservice/NotificationService/OrderPlacedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificationservice/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/client/InventoryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/client/WebClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/event/OrderPlacedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orderservice/src/main/resources/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orderservice/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/productservice/src/main/resources/application-docker.properties" afterDir="false" />
+    <list default="true" id="c325ac12-a9ba-4e92-a9b1-7f6e9974fcd6" name="Changes" comment="Added the prometheus file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/microservice/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/microservice/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/config/SecurityConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/discoveryservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discoveryservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discoveryservice/src/main/java/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/discoveryservice/src/main/java/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discoveryservice/src/main/java/config/SecurityConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/discoveryservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discoveryservice/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventoryservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/microservice/InventoryService/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/microservice/InventoryService/InventoryServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/microservice/InventoryService/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/microservice/InventoryService/controller/InventoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/microservice/InventoryService/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/microservice/InventoryService/repository/InventoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/microservice/InventoryService/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/microservice/InventoryService/service/InventoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orderservice/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/OrderServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/config/WebClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/client/WebClientConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/dto/OrderLineItemsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/dto/OrderLineItemsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/dto/OrderLineItemsDto.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/dto/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/dto/OrderRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/model/InventoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/model/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/model/OrderLineItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/model/OrderLineItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/model/OrderLineItems.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/microservice/OrderService/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/orderservice/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/productservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/src/main/java/com/microservice/ProductService/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/src/main/java/com/microservice/ProductService/ProductServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/src/main/java/com/microservice/ProductService/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/src/main/java/com/microservice/ProductService/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/src/main/java/com/microservice/ProductService/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/src/main/java/com/microservice/ProductService/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +41,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="Added the notification-service file (missed it)" />
+        <option name="rewordedMessage" value="Added the notification-service file (missed it)" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="d82530ca38d95b1957de4e4f3ddae362d09a8106" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -80,20 +64,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "D:/Inetellij_Project/Spring-Boot-Microservices",
-    "onboarding.tips.debug.path": "D:/Inetellij_Project/Spring-Boot-Microservices/prometheus/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Inetellij_Project/Spring-Boot-Microservices&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Inetellij_Project/Spring-Boot-Microservices/prometheus/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Inetellij_Project\Spring-Boot-Microservices" />
@@ -198,11 +182,70 @@
       <option name="presentableId" value="Default" />
       <updated>1725203688672</updated>
     </task>
+    <task id="LOCAL-00001" summary="Modified code to run all the services successfully with docker, prometheus and grafana">
+      <option name="closed" value="true" />
+      <created>1728215009265</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728215009265</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added the prometheus file">
+      <option name="closed" value="true" />
+      <created>1728216097409</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728216097409</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added the prometheus file">
+      <option name="closed" value="true" />
+      <created>1728217903537</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728217903537</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added the prometheus file">
+      <option name="closed" value="true" />
+      <created>1728218046385</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728218046385</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Needed to check the authentication in eureka server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Needed to check the authentication in eureka server" />
+    <MESSAGE value="Modified code to run all the services successfully with docker, prometheus and grafana" />
+    <MESSAGE value="Added the notification-service file (missed it)" />
+    <MESSAGE value="Added the prometheus file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the prometheus file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
