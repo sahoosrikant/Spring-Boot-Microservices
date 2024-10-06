@@ -1,10 +1,9 @@
 package com.microservice.OrderService.model;
 
-import com.microservice.OrderService.model.OrderLineItems;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.List;
+import java.math.BigDecimal;
 
 @Entity
 @Table(name ="OrderApplied")
@@ -18,7 +17,7 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String orderNumber;
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name = "orderlineitemslist", referencedColumnName = "id")
-    private List<OrderLineItems> orderLineItemsList;
+    private String skuCode;
+    private BigDecimal price;
+    private Integer quantity;
 }
